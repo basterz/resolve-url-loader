@@ -49,7 +49,7 @@ function resolveUrlLoader(content, sourceMap) {
           sourceMap: loader.sourceMap,
           engine   : 'postcss',
           silent   : false,
-          removeCR : false,
+          removeCR : true,
           root     : false,
           debug    : false,
           join     : joinFn.defaultJoin
